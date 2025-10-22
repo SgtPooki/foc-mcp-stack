@@ -2,6 +2,8 @@
 
 A **Filecoin On-Chain Cloud (FOC)** agent framework implementing **ERC-8004** for multi-chain agent identity and **MCP/A2A** protocols for Filecoin/IPFS operations.
 
+This agent provides a bridge between the [Filecoin Pin](https://docs.filecoin.io/builder-cookbook/filecoin-pin#how-to-get-started) ecosystem and multi-chain applications, enabling developers to pin IPFS content to Filecoin with cryptographic guarantees while maintaining on-chain identity across multiple blockchains.
+
 ## 🚀 Quick Start
 
 ```bash
@@ -249,9 +251,10 @@ pnpm tsx scripts/build-cards.ts \
 
 ## 🚧 Roadmap
 
-- [ ] Implement actual Filecoin/IPFS operations
+- [ ] Implement actual Filecoin/IPFS operations using [Filecoin Pin](https://docs.filecoin.io/builder-cookbook/filecoin-pin#how-to-get-started)
 - [ ] Add proper ECDSA signing with secp256k1
 - [ ] ERC-8004 registry integration
+- [ ] Integration with Filecoin Pin CLI and GitHub Actions
 - [ ] Rate limiting and authentication
 - [ ] Monitoring and observability
 - [ ] Docker deployment
@@ -262,6 +265,8 @@ pnpm tsx scripts/build-cards.ts \
 - [ERC-8004: On-Chain Agent Identity and Discovery](https://eips.ethereum.org/EIPS/eip-8004)
 - [Machine Communication Protocol (MCP)](https://specs.agentprotocol.org/mcp/)
 - [Filecoin Project](https://filecoin.io)
+- [Filecoin On-Chain Cloud (FOC)](https://filecoin.cloud) - Decentralized storage infrastructure
+- [Filecoin Pin Documentation](https://docs.filecoin.io/builder-cookbook/filecoin-pin#how-to-get-started) - Pin IPFS content to Filecoin with cryptographic guarantees
 - [IPFS / libp2p](https://libp2p.io)
 
 ## 📄 License
