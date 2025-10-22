@@ -1,0 +1,30 @@
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#agent-card-v1",
+  "name": "foc-storage-agent",
+  "version": "0.1.0",
+  "description": "FOC single agent providing Filecoin/IPFS pinning, indexing, and verification via A2A/MCP.",
+  "chainIdentity": {
+    "chainId": 84532,
+    "registry": "0x0000000000000000000000000000000000000000",
+    "agentId": "1",
+    "owner": "0x0000000000000000000000000000000000000000"
+  },
+  "publicKeys": {
+    "signing": "0x04YOUR_UNCOMPRESSED_SECP256K1_PUBKEY"
+  },
+  "endpoints": {
+    "rpc": "http://localhost:3000/a2a",
+    "mcp": "ws://localhost:3000/mcp"
+  },
+  "links": {
+    "identities": [
+      {
+        "chainId": 11155111,
+        "registry": "0x0000000000000000000000000000000000000000",
+        "agentId": "1",
+        "owner": "0x0000000000000000000000000000000000000000"
+      }
+    ]
+  },
+  "updated": "2025-01-27T00:00:00Z"
+}

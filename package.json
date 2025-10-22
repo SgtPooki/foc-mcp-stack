@@ -1,0 +1,21 @@
+{
+  "name": "foc-mcp-stack",
+  "private": true,
+  "version": "0.1.0",
+  "description": "MCP + ERC-8004 agent framework for the Filecoin On-Chain Cloud (FOC) — register and host multi-chain Filecoin agents with a single server and SDK.",
+  "author": "Russell Dempsey (@sgtpooki)",
+  "license": "MIT",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev": "pnpm -r --filter ./apps/* run dev",
+    "build": "pnpm -r run build",
+    "typecheck": "pnpm -r run typecheck",
+    "lint": "pnpm -r run lint",
+    "test": "pnpm -r run test"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.7",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.3"
+  }
+}

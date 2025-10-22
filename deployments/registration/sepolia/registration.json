@@ -1,0 +1,19 @@
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "name": "foc-storage-agent",
+  "version": "0.1.0",
+  "description": "FOC Storage Agent - Filecoin/IPFS operations via A2A/MCP",
+  "agentCard": "http://localhost:3000/.well-known/agent-card.json",
+  "endpoints": {
+    "rpc": "http://localhost:3000/a2a",
+    "mcp": "ws://localhost:3000/mcp"
+  },
+  "capabilities": [
+    "pin.add",
+    "pin.status",
+    "index.run",
+    "index.status",
+    "verify.proof"
+  ],
+  "updated": "2025-01-27T00:00:00Z"
+}
